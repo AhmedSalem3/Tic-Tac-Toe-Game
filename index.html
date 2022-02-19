@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toe</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>Tic Toe Game</h1>
+
+        <!-- START GAME -->
+        <div class="container">
+
+            <div class="start">
+
+                <div class="players-select">
+
+                    <label for="player">
+                        <input type="radio" id="player" value="1" name="players-count" checked>
+                        <p>1 Player</p>
+                    </label>
+                    <label for="players">
+                        <input type="radio" id="players" value="2" name="players-count">
+                        <p>2 Players</p>
+                    </label>
+
+
+
+                </div>
+
+                <div class="start-game">Start Game</div>
+
+            </div>
+
+            <div class="end">
+                <p class="winner"> <span>X</span> takes this round</p>
+            </div>
+
+            <div class="game">
+                <div class="inner-wrapper">
+
+                    <div class="turn">
+                        <span> x</span> Turn
+                    </div>
+
+                    <div class="game-blocks">
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+                        <div class="block">
+                            <div class="back"></div>
+                            <div class="front"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="stats">
+                        <span class="X-stats stat">
+                            X: <span>0</span>
+                        </span>
+                        <span class="ties stat">
+                            Ties: <span>0</span>
+                        </span>
+                        <span class="O-stats stat">
+                            O: <span>0</span>
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- END GAME -->
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
